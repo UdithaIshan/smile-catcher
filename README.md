@@ -3,7 +3,7 @@
 **Smile Catcher** recognizes the smiling faces and counts how many time smiled by the user while watching a given funny video.
 
 ### App Link
-https://smile-catcher-xlo6y.ondigitalocean.app
+https://smile-catcher-l8g8v.ondigitalocean.app/
 
 
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue-ghost.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/UdithaIshan/smile-catcher/tree/main)
