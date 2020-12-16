@@ -1,0 +1,22 @@
+{
+  "name": "smile-catcher",
+  "version": "1.0.0",
+  "description": "**Smile Catcher** recognizes the smiling faces and counts how many time smiled by the user while watching a given funny video.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UdithaIshan/smile-catcher.git"
+  },
+  "author": "Uditha Ishan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UdithaIshan/smile-catcher/issues"
+  },
+  "homepage": "https://github.com/UdithaIshan/smile-catcher#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
