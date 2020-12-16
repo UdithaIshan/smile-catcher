@@ -1,0 +1,7 @@
+spec:
+ name: smile-catcher
+ static_sites:
+ - git:
+     branch: main
+     repo_clone_url: https://github.com/UdithaIshan/smile-catcher.git
+   name: smile-catcher

@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This uses face.api to catch the facial expression">
+    <meta name="author" content="Uditha Ishan">
+    <title>Smile Catcher</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/cover.css" rel="stylesheet">
+</head>
+
+<body class="d-flex h-100 text-center text-white bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <h3 class="float-md-start mb-0">Smile Catcher&nbsp;&nbsp;<a class="link-light" target="blank"
+                        href="https://github.com/UdithaIshan/smile-catcher"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg></a></h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <p class="counter"></p>
+
+                    <div class=""><video width="0" height="0" autoplay muted class="float-end"></video></div>
+
+                </nav>
+
+            </div>
+        </header>
+
+        <main class="px-3">
+            <div class="utube">
+                <iframe width="600" height="315" src="https://www.youtube.com/embed/Lcjuhlpl9hE" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+                    allowfullscreen></iframe>
+            </div>
+            <br><p>You can watch the video. I'll manage the rest of this😉</p>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+            <p class="log"></p>
+        </footer>
+    </div>
+
+
+
+</body>
+<script src="/api/face-api.min.js"></script>
+<script src="/app.js"></script>
+
+</html>
