@@ -6,6 +6,8 @@
 https://smile-catcher-l8g8v.ondigitalocean.app/
 
 
+Deploy your own **Smile Catcher** 👇
+
 [![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue-ghost.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/UdithaIshan/smile-catcher/tree/main)
 
 ### Screenshots
